@@ -1,0 +1,35 @@
+MIT License
+
+Copyright (c) 2026 Lia Yoffe
+  Original work: https://github.com/dappermint/samsung-ac-remote-flipper-app
+
+Copyright (c) 2026 5RC
+  Modifications in this fork: https://github.com/Strasser-Solutions/flipper
+  WindFree and horizontal swing support, on/off state icons, the two-weight
+  heading, the settings-write return value fix, documentation and tooling.
+
+Portions of the panel widget originate from
+  https://github.com/xakep666/flipperzero-midea-ac-remote (MIT)
+
+The Samsung protocol description this implementation follows - field layout,
+timings, reset template and checksum - was reverse engineered in
+  https://github.com/crankyoldgit/IRremoteESP8266 (LGPL-2.1)
+and reimplemented here in C rather than copied.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
